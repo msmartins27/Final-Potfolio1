@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alina Martin - Home</title>
+  <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="logo">Alina Martin</div>
+    <ul class="nav-links">
+      <li><a href="index.html" class="nav-link active">Home</a></li>
+      <li><a href="about.html" class="nav-link">About</a></li>
+      <li><a href="skills.html" class="nav-link">Skills</a></li>
+      <li><a href="projects.html" class="nav-link">Projects</a></li>
+      <li><a href="education.html" class="nav-link">Education</a></li>
+      <li><a href="contact.html" class="nav-link">Contact</a></li>
+    </ul>
+    <div style="display:flex;align-items:center;gap:0.5rem;">
+      <button id="darkModeToggle" aria-label="Switch to dark mode">🌙</button>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Home Section -->
+  <section class="page-section">
+    <div class="home-content">
+      <div class="home-text reveal">
+        <h1>Hi, I'm <span class="highlight">Alina Martin</span></h1>
+        <h2 class="subtitle">Computer Science Student | IT Technician | Entrepreneur</h2>
+        <div class="typing-wrapper">
+          <span id="typingText"></span>
+        </div>
+        <p class="description dotted-border">Third-year Computer Science student at the University of Science and Technology with hands-on experience as an IT Technician Intern in a hospital environment. Also a small business owner running a perfume business.</p>
+        <div class="info-box">
+          <h4>Quick Links:</h4>
+          <p>
+            <a href="https://github.com/msmartins27" target="_blank" class="custom-link">GitHub</a> |
+            <a href="https://www.linkedin.com/in/alina-ndasilwohenda-3824383b3/" target="_blank" class="custom-link">LinkedIn</a> |
+            <a href="contact.html" class="custom-link">Contact Me</a>
+          </p>
+        </div>
+        <div class="button-group">
+          <a href="contact.html" class="cta-button">Get In Touch</a>
+          <a href="ALINA MARTIN CV  (2).pdf.pdf" download class="download-btn">Download CV</a>
+        </div>
+      </div>
+      <div class="home-image reveal">
+        <img src="WhatsApp Image 2026-02-24 at 3.05.21 PM.jpeg" alt="Alina Martin" class="profile-img">
+      </div>
+    </div>
+    <a href="about.html" class="next-btn">Next →</a>
+  </section>
+
+  <!-- Back to Top -->
+  <button id="backToTop" aria-label="Back to top">↑</button>
+
+  <script src="portfolio.js"></script>
+</body>
+</html>
